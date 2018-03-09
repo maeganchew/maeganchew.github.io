@@ -1,0 +1,78 @@
+.clear-float{
+
+	float: clear;
+
+}
+
+#menu{
+
+	position: fixed;
+	top: 10px;
+	margin: auto;
+	width: 100%;
+
+	z-index: 1;
+
+	background-color: #97d9e1;
+
+}
+
+#menu-wrapper{
+
+	margin: auto;
+
+}
+
+#menu a{
+
+	text-decoration: none;
+	color: black;
+	font-family: 'Lato';
+	opacity: 0.5;
+	width: 125px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 1.3em;
+
+	display: inline;
+	text-align: center;
+	float: left;
+
+}
+
+#menu a:hover{
+
+	font-weight: bold;
+	color: white;
+	opacity: 1;
+
+}
+
+#menu li{
+
+	float: left;
+	position: relative;
+
+}
+
+#menu ul{
+
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+
+}
+
+#menu ul ul{
+
+	position: absolute;
+	top: 50px;
+	visibility: hidden;
+
+}
+
+#menu li:hover > ul {
+
+	visibility: visible;
+
+}
