@@ -1,2 +1,2 @@
 # maeganchew.github.io
-Personal Website
+Personal Website -- Learning as I go
