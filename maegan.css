@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 .clear-float{
 
 	float: clear;
@@ -7,7 +9,8 @@
 #menu{
 
 	position: fixed;
-	top: 10px;
+	top: 0px;
+	left: 0px;
 	margin: auto;
 	width: 100%;
 
@@ -29,7 +32,7 @@
 	color: black;
 	font-family: 'Lato';
 	opacity: 0.5;
-	width: 125px;
+	width: 149px;
 	height: 50px;
 	line-height: 50px;
 	font-size: 1.3em;
@@ -52,6 +55,7 @@
 
 	float: left;
 	position: relative;
+	background-color: #97d9e1;
 
 }
 
@@ -74,5 +78,20 @@
 #menu li:hover > ul {
 
 	visibility: visible;
+
+}
+
+#menu ul ul li > .dropdown{
+
+	font-size: 1em;
+
+}
+
+#main{
+
+	width: 900px;
+	margin: auto;
+	font-family: 'Playfair Display';
+	font-size: 1.2em;
 
 }
