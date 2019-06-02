@@ -3,7 +3,7 @@
     "use strict";
 
         $(window).load(function(){
-          $('.preloader').fadeOut(1500);   
+          $('.preloader').fadeOut(2000);   
         });
 
 })(jQuery);
