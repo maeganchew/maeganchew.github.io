@@ -1,130 +1,99 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
+    <title> Maegan Chew </title>
 
-	<title> Maegan Chew </title>
+    <link rel = "stylesheet" type = "text/css" href = "assets/css/style.css">
+    <link rel = "stylesheet" type = "text/css" href = "assets/css/home.css">
+    <link rel = "stylesheet" type = "text/css" href = "assets/css/nav.css">
+    <link rel = "stylesheet" type = "text/css" href = "assets/css/about.css">
+    <!-- <link rel = "stylesheet" type = "text/css" href = "assets/css/work.css">
+    <link rel = "stylesheet" type = "text/css" href = "assets/css/dance.css">
+    <link rel = "stylesheet" type = "text/css" href = "assets/css/contact.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Great+Vibes" rel="stylesheet">
 
-	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:extrabold|Dancing+Script" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="maegan.css">
-
-	<style>
-
-		 html{
-
-		 	background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
-		 	background-repeat: no-repeat;
-		 	height: 100%;
-		 	background-size: cover;
-		 	font-family: 'Lato';
-		 	
-		 }
-
-		 h1{
-
-			font-family: 'Merriweather Sans', Extra-Bold;
-			color: white;
-			margin-top: 20%;
-			font-size: 5em;
-			text-align: center;
-
-		}
-
-		p{
-
-		 	color: white;
-		 	font-size: 1.5em;
-		 	text-align: center;
-
-		 }
-
-		 #line{
-
-		 	width: 30%;
-		 	border-bottom: solid white 3px;
-		 	margin-right: 35%;
-		 	margin-left: 35%;
-
-		 }
-
-		 #quote{
-
-		 	font-family: 'Dancing Script';
-
-		 }
-
-	/* Tables - screen width < 1024px */
-		@media(max-width: 1024px){
-
-			h1{
-
-				margin-top: 50%;
-
-			}
-
-		}
-
-	/* phone - screen width < 767px */
-		@media(max-width: 767px){
-
-			h1{
-
-				margin-top: 30%;
-
-			}
-
-		}
-
-	</style>
-
+    <!-- important for mobile design -->
+	<meta name="viewport" content="width=device-width, intial-scale = 1">
+    
+    <script src = "assets/js/scroll.js"></script> 
+    <script type="text/javascript" src="assets/js/script.js"></script>
 </head>
 
 <body>
+    
+    <div id = "nav-topbar">
+        <div id = "nav-item-container">
+            <div id = "nav-home"> <a class = "active" href = "#home"> <b> MAEGAN CHEW </b> </a> </div>
+            <div id = "nav-items">
+                <div id = "nav-about" class = "nav-item"> <a href = "#about"> about </a></div>
+                <div id = "nav-work" class = "nav-item"> <a href = "#work"> work </a> </div>
+                <div id = "nav-contact" class = "nav-item"> <a href = "#contact"> contact </a> </div>
+            </div>
+            <div id = "nav-underline"> </div>
+        </div>
+    </div>
+    
+    <div id = "grayed-out-box"></div>
 
-	<div id="menu">
 
-		<div id="menu-wrapper">
+    <section id = "home" class = "section-card">
+        <div id = "home-title-container-margin"> </div>
+        <div id = "home-title-container">
+            <div id = "hi-sectionwrapper">
+                <div id = "hi-textwrapper">
+                     <div id = "hi"> hi, i'm </div> 
+                </div>
+            </div>
+            <div id = "maegan-wrapper">
+                <div id="maegan">Maegan</div>
+            </div>
+        </div>
+         <div id = "scroll-margin"> </div> 
+        <a href = "#about"> <img id = "scroll-arrow" src = "assets/images/arrow-down.png"> </a>
+    </section>
 
-			<ul>
-				
-				<li> <a href="gradient.html"> Home </a></li>
-				<li> <a href="about.html"> About </a></li>
-				<li>
+    <section id = "about" class = "section-card">
+        <div id = "nav-topbar-about">
+            <div id = "nav-item-container-about">
+                <div id = "nav-home-about"> <a href = "#home"> <b> MAEGAN CHEW </b> </a> </div>
+                <div id = "nav-items-about">
+                    <a href = "#about"> about </a>
+                    <a href = "#work"> work </a> 
+                    <a href = "#contact"> contact </a>
+                </div>
+                <div id = "nav-underline-about"> </div>
+            </div>
+        </div>
+        
+        <div class = "outer-container"> 
+            <div class = "slide-border"> </div> 
+            <div class = "card-header-container">
+            	<div id="about-header">
+            		about 
+            	</div>
+            </div>
+            <div id = "about-content-wrapper">
+                <div id = "pic-wrapper">
+                    <img id = "maegan" class = "about-me-pic" src = "assets/images/maegan.jpg">
+                </div>
+                <div id = "bio-wrapper">
+                    <div id = "bio-text">
+                    	<p>
+                    		Hi! I'm Maegan and I am a junior at the University of Southern California studying Computer Engineering & Computer Science with a minor in Engineering Management.
+                    	</p>
+                    	<p>
+                    		I'm an aspiring software engineer with particular interests in the intersection of hardware and software.
+                    	</p>
+                    	<p>
+                    		In my free time, I enjoy baking, watching figure skating and gymnastics, biking, brush calligraphy, and bullet journalling! 
+                    	</p>
+                    </div>
+                </div>   
+                <div style="height:30px"></div>
+            </div>
+        </div>
+    </section>
 
-					<a href=""> Projects </a>
-
-					<ul>
-						
-						<li> <a href=""> Temp </a> </li>
-						<li> <a href=""> Temp </a> </li>
-						<li> <a href=""> Temp </a> </li>
-
-					</ul>
-
-				</li>
-				<li> <a href=""> Other </a> </li>
-
-			</ul>
-			
-		</div> <!-- #menu-wrapper -->
-		
-	</div> <!-- #menu -->
-
-	<div class="clear-float"></div>
-
-	<h1> MAEGAN CHEW</h1>
-
-	<p id="line"></p>
-
-	<br>
-
-	<p> CECS @ USC </p>
-
-	<p> Figure Skating and Gymnastics Enthusiast </p>
-
-	<p id="quote"> "Let go of the past and keep moving forward" </p>
-
-</body>
-
-</html>
+    <div id = "footer" style = "padding-top: 20px; font-size:12px;"> &copy Maegan Chew 2019 </div>
+    

@@ -1,0 +1,113 @@
+#home {
+    background-image: url("../images/landingbackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 570px;
+    height:100vh;
+}
+
+#home-title-container-margin {
+    position:relative;
+    height:20%;
+}
+
+#home-title-container {
+    height:40%;
+    width: 100%;
+    max-width:1000px;
+    position:relative;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+#hi-sectionwrapper {
+    width:100%;
+}
+
+#hi-textwrapper {
+    position:relative;
+    width:100%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+#hi {
+    font-size: 10em;
+    text-align: center;
+    color: #ECDEA7;;
+    line-height:0.5;
+    margin: 2%;
+}
+
+
+#maegan-wrapper {
+    font-family: "Great Vibes";
+    color: white;
+    font-size: 20em;
+    text-shadow: 0 0 5px #8E8E8E;
+}
+
+#maegan {
+    max-height:100%;
+    max-width:100%;
+    object-fit:contain;
+    text-align: center;
+}
+
+#scroll-margin {
+    height:25%;
+}
+
+
+#scroll-arrow {
+    position:relative;
+    display:block;
+    height:4em;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+#scroll-arrow:hover {
+    opacity: 0.5;
+}
+
+/* Tables - screen width < 991px */
+@media(max-width: 991px){
+
+    #maegan-wrapper {
+        font-size: 15em;
+    }
+    #home-title-container-margin{
+        height: 35%;
+    }
+    #hi{
+        font-size: 7em;
+    }
+    #scroll-margin{
+        height: 8em;
+    }
+
+}
+
+/* phone - screen width < 767px */
+@media(max-width: 767px){
+
+    #maegan-wrapper {
+        font-size: 7.25em;
+    }
+
+    #home-title-container-margin{
+        height: 40%;
+    }
+
+    #scroll-margin{
+        height: 3em;
+    }
+    #hi{
+        font-size: 4em;
+    }
+ 
+
+}
