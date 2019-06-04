@@ -4,7 +4,7 @@ body {
     margin: 0 0;
 }
 
-.outer-container {
+.outer-wrapper {
     max-width: 1100px;
     position:relative;
     left:50%;
@@ -13,56 +13,42 @@ body {
 }
 
 .section-card {
-	/*min-height: 100vh;*/
 	background-color: white;
 	position: relative;
 	width: 100%;
-    height: 100vh;
+  height: 100vh;
 }
 
-#grayed-out-box {
-    display:none;
-    position:fixed;
-    width:100%;
-    height:100vh;
-     background-color:rgba(0,0,0,.32); 
-     /* background-color:yellow;  */
-    z-index:15;
+.slide-border {
+    height:65px;
 }
 
+.card-header-wrapper{
+    height:15%;
+    width:80%;
+    margin: auto;
+    font-family: "Great Vibes";
+    color: #6aadc1;
+    font-size: 8em;
+}
 
-/*DESIGN FOR SLIDE HEADERS*/
-    .slide-border {
-        height:65px;
-    }
+.menu-button {
+    position:absolute;
+    height:40px;
+    right:30px;
+    top:35px;
+    z-index:11;
+}
 
-    .card-header-container {
-        /*position:relative;*/
-        height:15%;
-        width:80%;
-        margin: auto;
-        font-family: "Great Vibes";
-        color: #6aadc1;
-        font-size: 8em;
-    }
-
-    .menu-button {
-        position:absolute;
-        height:40px;
-        right:30px;
-        top:35px;
-        z-index:11;
-    }
-
-    .card-title{
-        display:block;
-        position:relative;
-        left:60%;
-        transform: translateX(-50%);
-        max-height:100%;
-        max-width:100%;
-        object-fit:contain;
-    }
+.card-title{
+    display:block;
+    position:relative;
+    left:60%;
+    transform: translateX(-50%);
+    max-height:100%;
+    max-width:100%;
+    object-fit:contain;
+}
 
 
 .line-link{
