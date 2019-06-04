@@ -73,7 +73,7 @@
     opacity: 0.5;
 }
 
-/* Tables - screen width < 991px */
+/* Tablets - screen width < 991px */
 @media(max-width: 991px){
 
     #maegan-wrapper {

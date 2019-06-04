@@ -102,3 +102,34 @@
     text-align: justify;
     line-height: 1.6;
 }
+
+/* Tablets - screen width < 991px */
+@media(max-width: 991px){
+
+    #pic-wrapper {
+        width: 70%;
+        margin: 0 auto;
+        vertical-align: baseline;
+        padding: 0;
+    }
+    #about-content-wrapper{
+        text-align: center;
+    }
+    #bio-wrapper{
+        width: 100%;
+        margin: 0 auto;
+        vertical-align: baseline;
+        padding: 0;
+
+    }
+
+}
+
+/* phone - screen width < 767px */
+@media(max-width: 767px){
+
+    #nav-topbar #nav-items{
+         display:none;
+     }
+ 
+}

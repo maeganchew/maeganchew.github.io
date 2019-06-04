@@ -104,6 +104,15 @@ body {
   to {transform: rotate(360deg);}
 }
 
+/* phone - screen width < 767px */
+@media(max-width: 767px){
+
+    #nav-topbar-about #nav-items-about {
+         display:none;
+     }
+ 
+}
+
 
 #footer {
     padding-bottom: 20px;
