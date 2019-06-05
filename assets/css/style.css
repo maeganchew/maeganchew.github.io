@@ -110,6 +110,10 @@ body {
     #nav-topbar-about #nav-items-about {
          display:none;
      }
+
+     .card-header-wrapper{
+        font-size: 7em;
+     }
  
 }
 
