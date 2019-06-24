@@ -1,3 +1,4 @@
+// SMOOTH SCROLL
 function onScroll(event){
     var scrollPos = $(document).scrollTop();
     $('#nav-item-container a').each(function () {
@@ -22,6 +23,17 @@ function onScroll(event){
 
     }
 }
+
+//PRELOADER
+(function ($) {
+
+    "use strict";
+
+        $(window).load(function(){
+          $('.preloader').fadeOut(2500);   
+        });
+
+})(jQuery);
 
 
 $(document).ready(function() {
