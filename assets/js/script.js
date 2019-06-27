@@ -24,18 +24,6 @@ function onScroll(event){
     }
 }
 
-//PRELOADER
-(function ($) {
-
-    "use strict";
-
-        $(window).load(function(){
-          $('.preloader').fadeOut(2500);   
-        });
-
-})(jQuery);
-
-
 $(document).ready(function() {
 
     $(document).on("scroll", onScroll);
@@ -60,3 +48,14 @@ $(document).ready(function() {
         });
     });
 });
+
+//PRELOADER
+(function ($) {
+
+    "use strict";
+
+        $(window).load(function(){
+          $('.preloader').fadeOut(2500);   
+        });
+
+})(jQuery);

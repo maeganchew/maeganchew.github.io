@@ -30,6 +30,7 @@ body {
     font-family: "Great Vibes";
     color: #6aadc1;
     font-size: 8em;
+
 }
 
 .menu-button {
@@ -48,16 +49,6 @@ body {
     max-height:100%;
     max-width:100%;
     object-fit:contain;
-}
-
-
-.line-link{
-    text-decoration:none;
-    color: #F09333
-}
-
-.line-link:hover {
-    color:#325687;
 }
 
 .preloader {
@@ -112,7 +103,11 @@ body {
      }
 
      .card-header-wrapper{
-        font-size: 7em;
+        font-size: 6em;
+     }
+
+     #nav-item{
+      display: none;
      }
  
 }

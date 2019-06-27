@@ -122,6 +122,9 @@
         padding: 0;
 
     }
+    #bio-text{
+        font-size: 1em;
+    }
 
 }
 
@@ -131,5 +134,8 @@
     #nav-topbar #nav-items{
          display:none;
      }
+    #bio-text{
+        font-size: 0.75em;
+    }
  
 }

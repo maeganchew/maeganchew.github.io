@@ -40,8 +40,7 @@
             <div id = "nav-home"> <a class = "active" href = "#home"> <b> MAEGAN CHEW </b> </a> </div>
             <div id = "nav-items">
                 <div id = "nav-about" class = "nav-item"> <a href = "#about"> about </a></div>
-                <div id = "nav-work" class = "nav-item"> <a href = "#"> experience </a> </div>
-                <div id = "nav-contact" class = "nav-item"> <a href = "#"> contact </a> </div>
+                <div id = "nav-contact" class = "nav-item"> <a href = "#contact"> contact </a> </div>
             </div>
             <div id = "nav-underline"> </div>
         </div>
@@ -71,8 +70,7 @@
                 <div id = "nav-home-about"> <a href = "#home"> <b> MAEGAN CHEW </b> </a> </div>
                 <div id = "nav-items-about">
                     <a href = "#about"> about </a>
-                    <a href = "#"> experience </a> 
-                    <a href = "#"> contact </a>
+                    <a href = "#contact"> contact </a>
                 </div>
                 <div id = "nav-underline-about"> </div>
             </div>
@@ -107,11 +105,54 @@
         </div>
     </section>
 
+    <!-- CONTACT SECTION -->
+    <section id = "contact" class = "section-card">
+        <div class = "outer-wrapper"> 
+            <div class = "slide-border"> </div> 
+            <div class = "card-header-wrapper">
+                <div id="contact-header">
+                    contact
+                </div>
+            </div>
+            <div id = "contact-wrapper">
+                <div id = "contact-text">
+                        Feel free to contact me at one of the links or leave a message down below!
+                </div>
+                <div class = "contact-margin"></div>
+                <div id = "contact-form"> 
+                    <form method = "POST" action="https://script.google.com/macros/s/AKfycbwt8RzkQS4JxPuxfKuWC3dTDy_UpjCgId6MYJfo/exec" class="gform">
+                        <div class="input-margin"> 
+                            <input type = "text" name = "name" placeholder="name" required /> 
+                        </div>
+                        <div class="input-margin">
+                            <input type = "email" name = "email" placeholder="email" required />
+                        </div>
+                        <div class="input-margin">
+                            <textarea id = "message" name = "message" placeholder="message" required ></textarea>
+                        </div>
+                        <div class="input-margin">
+                            <input type = "submit" value = "send"/>
+                        </div>
+                    </form>
+            </div>
+            <div id = "airplane-wrapper">
+                    <img id = "airplane" src = "assets/images/message.png">
+            </div>
+            <div style = "height:10vh;"></div>
+            <div id = "contact-links">
+                <a href = "https://www.linkedin.com/in/maeganchew/" target = "_blank"> <img class = "link" src = "assets/images/linkedin.png"> </a>
+                <a href = "https://www.github.com/maeganchew" target = "_blank"><img class = "link" src = "assets/images/github.png"></a>
+                <a href = "mailto:chew.maegan@gmail.com"><img class = "link" src = "assets/images/mail.png"></a>
+            </div>
+        </div>
+
+    </section>
      
 
     <!-- JS SOURCE FILES -->
     <script type="text/javascript" src = "assets/js/scroll.js"></script> 
     <script type="text/javascript" src="assets/js/script.js"></script>
     <script type="text/javascript" src = "assets/js/jquery.js"></script> 
+    <script data-cfasync="false" type="text/javascript" src="assets/js/form-submission-handler.js"></script>
 </body>
 
