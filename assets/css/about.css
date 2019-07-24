@@ -131,7 +131,7 @@
 /* phone - screen width < 767px */
 @media(max-width: 767px){
 
-    #nav-topbar #nav-items{
+    #nav-topbar #nav-items #nav-item-container-about{
          display:none;
      }
     #bio-text{
